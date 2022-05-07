@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.3//EN" "http://www.web3d.org/specifications/x3d-3.3.dtd">
+<X3D profile="Immersive" version="3.3" xsd:noNamespaceSchemaLocation="http://www.web3d.org/specifications/x3d-3.3.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance">
+  <head>
+    <meta name="author" content="Andy"/>
+    <meta name="title" content="sea_simulation.logo"/>
+    <meta name="description" content=""/>
+    <meta name="created" content="Mon Mar 13 2017 23:57:02 GMT+1000 (AEST)"/>
+    <meta name="generator" content="VRMath2 Editor, https://vrmath2.net/VRM2"/>
+  </head>
+  <Scene>
+    <Viewpoint description="default" position="-1.196 4.7932 19.6498" orientation="-0.9489 -0.3089 -0.0647 0.1796" centerOfRotation="3.570926650034794 0.9161737785981403 -1.9816297637554214"/>
+    <Background description="default" frontUrl="/VRM2/resource/panorama/uni17.jpg" backUrl="/VRM2/resource/panorama/uni19.jpg" leftUrl="/VRM2/resource/panorama/uni20.jpg" rightUrl="/VRM2/resource/panorama/uni17.jpg" topUrl="/VRM2/resource/panorama/uni8.jpg" bottomUrl="/VRM2/resource/panorama/uni29.jpg" set_bind="true"/>
+    <NavigationInfo description="default" type='"EXAMINE" "ANY"' headlight="FALSE"/>
+    <Transform id="obj_24" render="true" center="0,0,0" translation="0,0,0" rotation="0,0,0,0" scale="1,1,1" scaleOrientation="0,0,0,0">
+      <Viewpoint id="obj_24_viewpoint" position="3.5393 2.9464 -15.3547" orientation="-0.2735 -0.9618 0.0114 0.9783" fieldOfView="0.785398" centerOfRotation="7.0711 1 -18.2843" zNear="-1" zFar="-1"/>
+    </Transform>
+    <Transform id="obj_23" render="true" center="0,0,0" translation="0,0,0" rotation="0,0,0,0" scale="1,1,1" scaleOrientation="0,0,0,0">
+      <Viewpoint id="obj_23_viewpoint" position="-4.111 2.1253 15.2682" orientation="0.0112 -0.9976 0.0686 0.6659" fieldOfView="0.785398" centerOfRotation="7.0711 1 -18.2843" zNear="-1" zFar="-1"/>
+    </Transform>
+    <Transform id="obj_22" render="true" center="0,0,0" translation="0,0,0" rotation="0,0,0,0" scale="1,1,1" scaleOrientation="0,0,0,0">
+      <Viewpoint id="obj_22_viewpoint" position="-14.8981 2.0162 -2.1795" orientation="0.0316 -0.9989 0.0343 1.9809" fieldOfView="0.785398" centerOfRotation="7.0711 1 -18.2843" zNear="-1" zFar="-1"/>
+    </Transform>
+    <Transform id="obj_21" render="true" center="0,0,0" translation="0,0,0" rotation="0,0,0,0" scale="1,1,1" scaleOrientation="0,0,0,0">
+      <Viewpoint id="obj_21_viewpoint" position="1.9986 5.2234 5.4788" orientation="0.0293 0.9991 -0.0295 0.402" fieldOfView="0.785398" centerOfRotation="7.0711 1 -18.2843" zNear="-1" zFar="-1"/>
+    </Transform>
+    <Transform id="obj_20" translation="7.0711 1 -18.2843" rotation="0 -1 0 0.7854" scale="1 1 1" render="true" center="0,0,0" scaleOrientation="0,0,0,0">
+      <Inline id="obj_20_inline" url="/sites/default/files/user/u3/world/boat.x3d" nameSpaceName="obj_20_nsn" render="true" load="true" onclick="_vrm2api.goto(this.id,'obj_24');"/>
+    </Transform>
+    <Transform id="obj_19" translation="-10.6066 1 -0.6066" rotation="0 1 0 0.7854" scale="1 1 1" render="true" center="0,0,0" scaleOrientation="0,0,0,0">
+      <Inline id="obj_19_inline" url="/sites/default/files/user/u3/world/boat.x3d" nameSpaceName="obj_19_nsn" render="true" load="true" onclick="_vrm2api.goto(this.id,'obj_22');"/>
+    </Transform>
+    <Transform id="obj_18" translation="0 1 10" rotation="0 0 1 0" scale="1 1 1" render="true" center="0,0,0" scaleOrientation="0,0,0,0">
+      <Inline id="obj_18_inline" url="/sites/default/files/user/u3/world/boat.x3d" nameSpaceName="obj_18_nsn" render="true" load="true" onclick="_vrm2api.goto(this.id,'obj_23');"/>
+    </Transform>
+    <Transform id="obj_15" rotation="0 0 -1 0" scale="1 1 1" render="true" center="0,0,0" translation="0,0,0" scaleOrientation="0,0,0,0">
+      <Transform id="obj_17" translation="0 5.5 0" rotation="0 0 -1 0" render="true" center="0,0,0" scale="1,1,1" scaleOrientation="0,0,0,0">
+        <SpotLight id="obj_17_spotlight" radius="40" beamWidth="1.047" shadowintensity="0.7" color="1,1,1" intensity="1" on="true" shadowmapsize="1024" zNear="-1" zFar="-1" direction="0,0,-1" attenuation="1,0,0" location="0,0,0" cutOffAngle="1" shadowcascades="1" shadowsplitfactor="1" shadowsplitoffset="0.1"/>
+      </Transform>
+      <Transform id="obj_16" translation="0 5.5 -1" rotation="0 -1 0 3.1416" render="true" center="0,0,0" scale="1,1,1" scaleOrientation="0,0,0,0">
+        <SpotLight id="obj_16_spotlight" radius="0.8" beamWidth="1.047" shadowintensity="0.7" color="1,1,1" intensity="1" on="true" shadowmapsize="1024" zNear="-1" zFar="-1" direction="0,0,-1" attenuation="1,0,0" location="0,0,0" cutOffAngle="1.5707963" shadowcascades="1" shadowsplitfactor="1" shadowsplitoffset="0.1"/>
+      </Transform>
+    </Transform>
+    <Transform id="obj_14" translation="0 5.5 0" rotation="0 0 -1 0" scale="1 1 1" render="true" center="0,0,0" scaleOrientation="0,0,0,0">
+      <Shape id="obj_14_shp" render="true" onclick="_vrm2api.goto(this.id,'obj_21');">
+        <Appearance id="obj_14_app" alphaclipthreshold="0.1">
+          <Material id="obj_14_mat" diffuseColor=".8 .8 .8" emissiveColor="0 0 0" specularColor="1 1 0" ambientIntensity=".2" shininess=".2" transparency="0"/>
+        </Appearance>
+        <Sphere id="obj_14_sphere" radius="0.5" usegeocache="false" solid="true" ccw="true" lit="true" subdivision="24,24"/>
+      </Shape>
+    </Transform>
+    <Transform id="obj_13" translation="0 6 0" rotation="0 0 -1 0" scale="1 1 1" render="true" center="0,0,0" scaleOrientation="0,0,0,0">
+      <Shape id="obj_13_shp" render="true">
+        <Appearance id="obj_13_app" alphaclipthreshold="0.1">
+          <Material id="obj_13_mat" diffuseColor=".8 .8 .8" emissiveColor="0 0 0" specularColor="0 0 0" ambientIntensity=".2" shininess=".2" transparency="0"/>
+        </Appearance>
+        <Dish id="obj_13_dish" usegeocache="false" solid="true" ccw="true" lit="true" diameter="2" height="1" radius="1" bottom="true" subdivision="24,24"/>
+      </Shape>
+    </Transform>
+    <Transform id="obj_12" translation="-0.6718 5.5 -0.6718" rotation="0 -1 0 5.4978" scale="0.1 1 0.1" render="true" center="0,0,0" scaleOrientation="0,0,0,0">
+      <Shape id="obj_12_shp" render="true">
+        <Appearance id="obj_12_app" alphaclipthreshold="0.1">
+          <Material id="obj_12_mat" diffuseColor=".8 .8 .8" emissiveColor="0 0 0" specularColor="0 0 0" ambientIntensity=".2" shininess=".2" transparency="0"/>
+        </Appearance>
+        <Cylinder id="obj_12_cylinder" radius="0.5" height="1" usegeocache="false" solid="true" ccw="true" lit="true" bottom="true" top="true" subdivision="32" side="true"/>
+      </Shape>
+    </Transform>
+    <Transform id="obj_11" translation="-0.95 5.5 0" rotation="0 -1 0 4.7124" scale="0.1 1 0.1" render="true" center="0,0,0" scaleOrientation="0,0,0,0">
+      <Shape id="obj_11_shp" render="true">
+        <Appearance id="obj_11_app" alphaclipthreshold="0.1">
+          <Material id="obj_11_mat" diffuseColor=".8 .8 .8" emissiveColor="0 0 0" specularColor="0 0 0" ambientIntensity=".2" shininess=".2" transparency="0"/>
+        </Appearance>
+        <Cylinder id="obj_11_cylinder" radius="0.5" height="1" usegeocache="false" solid="true" ccw="true" lit="true" bottom="true" top="true" subdivision="32" side="true"/>
+      </Shape>
+    </Transform>
+    <Transform id="obj_10" translation="-0.6718 5.5 0.6718" rotation="0 -1 0 3.927" scale="0.1 1 0.1" render="true" center="0,0,0" scaleOrientation="0,0,0,0">
+      <Shape id="obj_10_shp" render="true">
+        <Appearance id="obj_10_app" alphaclipthreshold="0.1">
+          <Material id="obj_10_mat" diffuseColor=".8 .8 .8" emissiveColor="0 0 0" specularColor="0 0 0" ambientIntensity=".2" shininess=".2" transparency="0"/>
+        </Appearance>
+        <Cylinder id="obj_10_cylinder" radius="0.5" height="1" usegeocache="false" solid="true" ccw="true" lit="true" bottom="true" top="true" subdivision="32" side="true"/>
+      </Shape>
+    </Transform>
+    <Transform id="obj_9" translation="0 5.5 0.95" rotation="0 -1 0 3.1416" scale="0.1 1 0.1" render="true" center="0,0,0" scaleOrientation="0,0,0,0">
+      <Shape id="obj_9_shp" render="true">
+        <Appearance id="obj_9_app" alphaclipthreshold="0.1">
+          <Material id="obj_9_mat" diffuseColor=".8 .8 .8" emissiveColor="0 0 0" specularColor="0 0 0" ambientIntensity=".2" shininess=".2" transparency="0"/>
+        </Appearance>
+        <Cylinder id="obj_9_cylinder" radius="0.5" height="1" usegeocache="false" solid="true" ccw="true" lit="true" bottom="true" top="true" subdivision="32" side="true"/>
+      </Shape>
+    </Transform>
+    <Transform id="obj_8" translation="0.6718 5.5 0.6718" rotation="0 -1 0 2.3562" scale="0.1 1 0.1" render="true" center="0,0,0" scaleOrientation="0,0,0,0">
+      <Shape id="obj_8_shp" render="true">
+        <Appearance id="obj_8_app" alphaclipthreshold="0.1">
+          <Material id="obj_8_mat" diffuseColor=".8 .8 .8" emissiveColor="0 0 0" specularColor="0 0 0" ambientIntensity=".2" shininess=".2" transparency="0"/>
+        </Appearance>
+        <Cylinder id="obj_8_cylinder" radius="0.5" height="1" usegeocache="false" solid="true" ccw="true" lit="true" bottom="true" top="true" subdivision="32" side="true"/>
+      </Shape>
+    </Transform>
+    <Transform id="obj_7" translation="0.95 5.5 0" rotation="0 -1 0 1.5708" scale="0.1 1 0.1" render="true" center="0,0,0" scaleOrientation="0,0,0,0">
+      <Shape id="obj_7_shp" render="true">
+        <Appearance id="obj_7_app" alphaclipthreshold="0.1">
+          <Material id="obj_7_mat" diffuseColor=".8 .8 .8" emissiveColor="0 0 0" specularColor="0 0 0" ambientIntensity=".2" shininess=".2" transparency="0"/>
+        </Appearance>
+        <Cylinder id="obj_7_cylinder" radius="0.5" height="1" usegeocache="false" solid="true" ccw="true" lit="true" bottom="true" top="true" subdivision="32" side="true"/>
+      </Shape>
+    </Transform>
+    <Transform id="obj_6" translation="0.6718 5.5 -0.6718" rotation="0 -1 0 0.7854" scale="0.1 1 0.1" render="true" center="0,0,0" scaleOrientation="0,0,0,0">
+      <Shape id="obj_6_shp" render="true">
+        <Appearance id="obj_6_app" alphaclipthreshold="0.1">
+          <Material id="obj_6_mat" diffuseColor=".8 .8 .8" emissiveColor="0 0 0" specularColor="0 0 0" ambientIntensity=".2" shininess=".2" transparency="0"/>
+        </Appearance>
+        <Cylinder id="obj_6_cylinder" radius="0.5" height="1" usegeocache="false" solid="true" ccw="true" lit="true" bottom="true" top="true" subdivision="32" side="true"/>
+      </Shape>
+    </Transform>
+    <Transform id="obj_5" translation="0 5.5 -0.95" rotation="0 0 1 0" scale="0.1 1 0.1" render="true" center="0,0,0" scaleOrientation="0,0,0,0">
+      <Shape id="obj_5_shp" render="true">
+        <Appearance id="obj_5_app" alphaclipthreshold="0.1">
+          <Material id="obj_5_mat" diffuseColor=".8 .8 .8" emissiveColor="0 0 0" specularColor="0 0 0" ambientIntensity=".2" shininess=".2" transparency="0"/>
+        </Appearance>
+        <Cylinder id="obj_5_cylinder" radius="0.5" height="1" usegeocache="false" solid="true" ccw="true" lit="true" bottom="true" top="true" subdivision="32" side="true"/>
+      </Shape>
+    </Transform>
+    <Transform id="obj_4" translation="0 3 0" rotation="0 0 1 0" scale="2 4 2" render="true" center="0,0,0" scaleOrientation="0,0,0,0">
+      <Shape id="obj_4_shp" render="true">
+        <Appearance id="obj_4_app" alphaclipthreshold="0.1">
+          <Material id="obj_4_mat" diffuseColor=".8 .8 .8" emissiveColor="0 0 0" specularColor="0 0 0" ambientIntensity=".2" shininess=".2" transparency="0"/>
+        </Appearance>
+        <Cylinder id="obj_4_cylinder" radius="0.5" height="1" usegeocache="false" solid="true" ccw="true" lit="true" bottom="true" top="true" subdivision="32" side="true"/>
+      </Shape>
+    </Transform>
+    <Transform id="obj_3" translation="0 1 0" rotation="0 0 1 0" scale="5 1 5" render="true" center="0,0,0" scaleOrientation="0,0,0,0">
+      <Shape id="obj_3_shp" render="true">
+        <Appearance id="obj_3_app" alphaclipthreshold="0.1">
+          <Material id="obj_3_mat" diffuseColor=".8 .8 .8" emissiveColor="0 0 0" specularColor="0 0 0" ambientIntensity=".2" shininess=".2" transparency="0"/>
+        </Appearance>
+        <Box id="obj_3_cube" size="1 1 1" usegeocache="false" solid="true" ccw="true" lit="true"/>
+      </Shape>
+    </Transform>
+    <Transform id="obj_2" translation="0 0 0" rotation="-0.7701 0.5525 0.319 1.2867" render="true" center="0,0,0" scale="1,1,1" scaleOrientation="0,0,0,0">
+      <DirectionalLight id="obj_2_dirlight" shadowintensity="0.7" color="1,1,1" intensity="0.2" on="true" shadowmapsize="1024" zNear="-1" zFar="-1" direction="0,0,-1" shadowcascades="1" shadowsplitfactor="1" shadowsplitoffset="0.1"/>
+    </Transform>
+    <Transform id="obj_0" translation="-36 0 -36" rotation="0 0 1 0" scale="8 1.5 8" render="true" center="0,0,0" scaleOrientation="0,0,0,0">
+      <Shape id="obj_0_shp" render="true">
+        <Appearance id="obj_0_app" alphaclipthreshold="0.1">
+          <Material id="obj_0_mat" diffuseColor=".8 .8 .8" emissiveColor="0 0 0" specularColor="0 0 0" ambientIntensity=".2" shininess=".2" transparency="0"/>
+          <ImageTexture id="obj_0_imgTex" url="/VRM2/resource/texture/nature/21.jpg" repeatS="true" repeatT="true" scale="true" hidechildren="true"/>
+          <TextureTransform id="obj_0_texTran" scale="1 1" translation="0 0" rotation="0" center="0,0"/>
+        </Appearance>
+        <ElevationGrid id="obj_0_elegrid" xDimension="10" zDimension="10" solid="false" height="0.192 0.022 0.249 0.757 0.101 0.079 0.048 0.288 0.632 0.537 0.739 0.576 0.512 0.237 0.221 0.503 0.534 0.953 0.830 0.980 0.011 0.238 0.578 0.792 0.600 0.248 0.453 0.379 0.730 0.742 0.613 0.230 0.369 0.879 0.932 0.573 0.984 0.039 0.452 0.831 0.105 0.723 0.494 0.184 0.803 0.942 0.679 0.332 0.187 0.924 0.405 0.442 0.758 0.674 0.928 0.099 0.621 0.753 0.416 0.478 0.060 0.808 0.628 0.352 0.301 0.376 0.008 0.076 0.676 0.155 0.737 0.980 0.846 0.118 0.755 0.343 0.399 0.373 0.303 0.507 0.186 0.928 0.080 0.806 0.813 0.039 0.450 0.536 0.402 0.510 0.679 0.421 0.532 0.598 0.203 0.503 0.766 0.932 0.904 0.259 " usegeocache="false" ccw="true" lit="true" colorPerVertex="true" normalPerVertex="true" xSpacing="1" zSpacing="1"/>
+      </Shape>
+    </Transform>
+    <TimeSensor id="ts" cycleInterval="6" loop="true" enabled="true" first="true"/>
+    <VectorInterpolator id="vi" key="0 .5 1" keyValue="0.192 0.022 0.249 0.757 0.101 0.079 0.048 0.288 0.632 0.537 0.739 0.576 0.512 0.237 0.221 0.503 0.534 0.953 0.830 0.980 0.011 0.238 0.578 0.792 0.600 0.248 0.453 0.379 0.730 0.742 0.613 0.230 0.369 0.879 0.932 0.573 0.984 0.039 0.452 0.831 0.105 0.723 0.494 0.184 0.803 0.942 0.679 0.332 0.187 0.924 0.405 0.442 0.758 0.674 0.928 0.099 0.621 0.753 0.416 0.478 0.060 0.808 0.628 0.352 0.301 0.376 0.008 0.076 0.676 0.155 0.737 0.980 0.846 0.118 0.755 0.343 0.399 0.373 0.303 0.507 0.186 0.928 0.080 0.806 0.813 0.039 0.450 0.536 0.402 0.510 0.679 0.421 0.532 0.598 0.203 0.503 0.766 0.932 0.904 0.259 ,0.994 0.029 0.850 0.545 0.097 0.253 0.318 0.151 0.859 0.123 0.105 0.185 0.957 0.552 0.362 0.151 0.590 0.861 0.549 0.744 0.181 0.855 0.389 0.905 0.126 0.734 0.962 0.597 0.077 0.252 0.590 0.542 0.256 0.660 0.632 0.152 0.910 0.432 0.508 0.140 0.072 0.797 0.993 0.555 0.897 0.242 0.363 0.753 0.258 0.765 0.013 0.559 0.407 0.379 0.576 0.273 0.927 0.975 0.833 0.284 0.072 0.625 0.385 0.908 0.623 0.502 0.784 0.653 0.921 0.942 0.004 0.924 0.086 0.928 0.338 0.201 0.626 0.769 0.794 0.550 0.344 0.935 0.084 0.173 0.254 0.142 0.165 0.125 0.821 0.082 0.119 0.340 0.734 0.317 0.731 0.304 0.015 0.286 0.557 0.023 ,0.192 0.022 0.249 0.757 0.101 0.079 0.048 0.288 0.632 0.537 0.739 0.576 0.512 0.237 0.221 0.503 0.534 0.953 0.830 0.980 0.011 0.238 0.578 0.792 0.600 0.248 0.453 0.379 0.730 0.742 0.613 0.230 0.369 0.879 0.932 0.573 0.984 0.039 0.452 0.831 0.105 0.723 0.494 0.184 0.803 0.942 0.679 0.332 0.187 0.924 0.405 0.442 0.758 0.674 0.928 0.099 0.621 0.753 0.416 0.478 0.060 0.808 0.628 0.352 0.301 0.376 0.008 0.076 0.676 0.155 0.737 0.980 0.846 0.118 0.755 0.343 0.399 0.373 0.303 0.507 0.186 0.928 0.080 0.806 0.813 0.039 0.450 0.536 0.402 0.510 0.679 0.421 0.532 0.598 0.203 0.503 0.766 0.932 0.904 0.259 "/>
+    <ROUTE id="r1" fromNode="ts" fromField="fraction_changed" toNode="vi" toField="set_fraction"/>
+    <ROUTE id="r2" fromNode="vi" fromField="value_changed" toNode="obj_0_elegrid" toField="set_height"/>
+    <TimeSensor id="spin_ts_obj_15" cycleInterval="60" loop="true" enabled="true" first="true"/>
+    <OrientationInterpolator id="spin_oi_obj_15" key="0 0.25 0.5 0.75 1" keyValue="0 0 1 0,0 1 0 1.5708,0 1 0 3.1416,0 1 0 4.7124,0 0 -1 0"/>
+    <ROUTE id="spin_r1_obj_15" fromNode="spin_ts_obj_15" fromField="fraction_changed" toNode="spin_oi_obj_15" toField="set_fraction"/>
+    <ROUTE id="spin_r2_obj_15" fromNode="spin_oi_obj_15" fromField="value_changed" toNode="obj_15" toField="set_rotation"/>
+  </Scene>
+</X3D>
