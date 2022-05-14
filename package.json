@@ -1,0 +1,24 @@
+{
+  "name": "x3dom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "x3dom.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "start": "http-server -a localhost -p 8000 file:///Users/raulpineda/Documents/sextoUach/DABAPLA/x3dom",
+    "url": "git+https://github.com/pineda24/mono.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pineda24/mono/issues"
+  },
+  "homepage": "https://github.com/pineda24/mono#readme",
+  "dependencies": {
+    "http-server": "^14.1.0",
+    "live-server": "^1.2.2"
+  }
+}
